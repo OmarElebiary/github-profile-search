@@ -1,0 +1,658 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @angular/common
+20 silly mapToRegistry name @angular/common
+21 silly mapToRegistry scope (from package name) @angular
+22 verbose mapToRegistry no registry URL found in name for scope @angular
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry http://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: '@angular/common',
+25 silly mapToRegistry   scope: '@angular',
+25 silly mapToRegistry   escapedName: '@angular%2fcommon',
+25 silly mapToRegistry   name: '@angular/common',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri http://registry.npmjs.org/@angular%2fcommon
+27 silly fetchNamedPackageData @angular/compiler
+28 silly mapToRegistry name @angular/compiler
+29 silly mapToRegistry scope (from package name) @angular
+30 verbose mapToRegistry no registry URL found in name for scope @angular
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry http://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: '@angular/compiler',
+33 silly mapToRegistry   scope: '@angular',
+33 silly mapToRegistry   escapedName: '@angular%2fcompiler',
+33 silly mapToRegistry   name: '@angular/compiler',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri http://registry.npmjs.org/@angular%2fcompiler
+35 silly fetchNamedPackageData @angular/core
+36 silly mapToRegistry name @angular/core
+37 silly mapToRegistry scope (from package name) @angular
+38 verbose mapToRegistry no registry URL found in name for scope @angular
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry http://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: '@angular/core',
+41 silly mapToRegistry   scope: '@angular',
+41 silly mapToRegistry   escapedName: '@angular%2fcore',
+41 silly mapToRegistry   name: '@angular/core',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri http://registry.npmjs.org/@angular%2fcore
+43 silly fetchNamedPackageData @angular/forms
+44 silly mapToRegistry name @angular/forms
+45 silly mapToRegistry scope (from package name) @angular
+46 verbose mapToRegistry no registry URL found in name for scope @angular
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry http://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: '@angular/forms',
+49 silly mapToRegistry   scope: '@angular',
+49 silly mapToRegistry   escapedName: '@angular%2fforms',
+49 silly mapToRegistry   name: '@angular/forms',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri http://registry.npmjs.org/@angular%2fforms
+51 silly fetchNamedPackageData @angular/http
+52 silly mapToRegistry name @angular/http
+53 silly mapToRegistry scope (from package name) @angular
+54 verbose mapToRegistry no registry URL found in name for scope @angular
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry http://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: '@angular/http',
+57 silly mapToRegistry   scope: '@angular',
+57 silly mapToRegistry   escapedName: '@angular%2fhttp',
+57 silly mapToRegistry   name: '@angular/http',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri http://registry.npmjs.org/@angular%2fhttp
+59 silly fetchNamedPackageData @angular/platform-browser
+60 silly mapToRegistry name @angular/platform-browser
+61 silly mapToRegistry scope (from package name) @angular
+62 verbose mapToRegistry no registry URL found in name for scope @angular
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry http://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: '@angular/platform-browser',
+65 silly mapToRegistry   scope: '@angular',
+65 silly mapToRegistry   escapedName: '@angular%2fplatform-browser',
+65 silly mapToRegistry   name: '@angular/platform-browser',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri http://registry.npmjs.org/@angular%2fplatform-browser
+67 silly fetchNamedPackageData @angular/platform-browser-dynamic
+68 silly mapToRegistry name @angular/platform-browser-dynamic
+69 silly mapToRegistry scope (from package name) @angular
+70 verbose mapToRegistry no registry URL found in name for scope @angular
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry http://registry.npmjs.org/
+73 silly mapToRegistry data Result {
+73 silly mapToRegistry   raw: '@angular/platform-browser-dynamic',
+73 silly mapToRegistry   scope: '@angular',
+73 silly mapToRegistry   escapedName: '@angular%2fplatform-browser-dynamic',
+73 silly mapToRegistry   name: '@angular/platform-browser-dynamic',
+73 silly mapToRegistry   rawSpec: '',
+73 silly mapToRegistry   spec: 'latest',
+73 silly mapToRegistry   type: 'tag' }
+74 silly mapToRegistry uri http://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+75 silly fetchNamedPackageData @angular/router
+76 silly mapToRegistry name @angular/router
+77 silly mapToRegistry scope (from package name) @angular
+78 verbose mapToRegistry no registry URL found in name for scope @angular
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry http://registry.npmjs.org/
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: '@angular/router',
+81 silly mapToRegistry   scope: '@angular',
+81 silly mapToRegistry   escapedName: '@angular%2frouter',
+81 silly mapToRegistry   name: '@angular/router',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag' }
+82 silly mapToRegistry uri http://registry.npmjs.org/@angular%2frouter
+83 silly fetchNamedPackageData angular-in-memory-web-api
+84 silly mapToRegistry name angular-in-memory-web-api
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry http://registry.npmjs.org/
+87 silly mapToRegistry data Result {
+87 silly mapToRegistry   raw: 'angular-in-memory-web-api',
+87 silly mapToRegistry   scope: null,
+87 silly mapToRegistry   escapedName: 'angular-in-memory-web-api',
+87 silly mapToRegistry   name: 'angular-in-memory-web-api',
+87 silly mapToRegistry   rawSpec: '',
+87 silly mapToRegistry   spec: 'latest',
+87 silly mapToRegistry   type: 'tag' }
+88 silly mapToRegistry uri http://registry.npmjs.org/angular-in-memory-web-api
+89 silly fetchNamedPackageData systemjs
+90 silly mapToRegistry name systemjs
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry http://registry.npmjs.org/
+93 silly mapToRegistry data Result {
+93 silly mapToRegistry   raw: 'systemjs',
+93 silly mapToRegistry   scope: null,
+93 silly mapToRegistry   escapedName: 'systemjs',
+93 silly mapToRegistry   name: 'systemjs',
+93 silly mapToRegistry   rawSpec: '',
+93 silly mapToRegistry   spec: 'latest',
+93 silly mapToRegistry   type: 'tag' }
+94 silly mapToRegistry uri http://registry.npmjs.org/systemjs
+95 silly fetchNamedPackageData core-js
+96 silly mapToRegistry name core-js
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry http://registry.npmjs.org/
+99 silly mapToRegistry data Result {
+99 silly mapToRegistry   raw: 'core-js',
+99 silly mapToRegistry   scope: null,
+99 silly mapToRegistry   escapedName: 'core-js',
+99 silly mapToRegistry   name: 'core-js',
+99 silly mapToRegistry   rawSpec: '',
+99 silly mapToRegistry   spec: 'latest',
+99 silly mapToRegistry   type: 'tag' }
+100 silly mapToRegistry uri http://registry.npmjs.org/core-js
+101 silly fetchNamedPackageData rxjs
+102 silly mapToRegistry name rxjs
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry http://registry.npmjs.org/
+105 silly mapToRegistry data Result {
+105 silly mapToRegistry   raw: 'rxjs',
+105 silly mapToRegistry   scope: null,
+105 silly mapToRegistry   escapedName: 'rxjs',
+105 silly mapToRegistry   name: 'rxjs',
+105 silly mapToRegistry   rawSpec: '',
+105 silly mapToRegistry   spec: 'latest',
+105 silly mapToRegistry   type: 'tag' }
+106 silly mapToRegistry uri http://registry.npmjs.org/rxjs
+107 silly fetchNamedPackageData zone.js
+108 silly mapToRegistry name zone.js
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry http://registry.npmjs.org/
+111 silly mapToRegistry data Result {
+111 silly mapToRegistry   raw: 'zone.js',
+111 silly mapToRegistry   scope: null,
+111 silly mapToRegistry   escapedName: 'zone.js',
+111 silly mapToRegistry   name: 'zone.js',
+111 silly mapToRegistry   rawSpec: '',
+111 silly mapToRegistry   spec: 'latest',
+111 silly mapToRegistry   type: 'tag' }
+112 silly mapToRegistry uri http://registry.npmjs.org/zone.js
+113 verbose request uri http://registry.npmjs.org/@angular%2fcommon
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 10:04:16 PM
+116 verbose request id 67639bee6dedb584
+117 http request GET http://registry.npmjs.org/@angular%2fcommon
+118 verbose request uri http://registry.npmjs.org/@angular%2fcompiler
+119 verbose request no auth needed
+120 info attempt registry request try #1 at 10:04:16 PM
+121 http request GET http://registry.npmjs.org/@angular%2fcompiler
+122 verbose request uri http://registry.npmjs.org/@angular%2fcore
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 10:04:16 PM
+125 http request GET http://registry.npmjs.org/@angular%2fcore
+126 verbose request uri http://registry.npmjs.org/@angular%2fforms
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 10:04:16 PM
+129 http request GET http://registry.npmjs.org/@angular%2fforms
+130 verbose request uri http://registry.npmjs.org/@angular%2fhttp
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 10:04:16 PM
+133 http request GET http://registry.npmjs.org/@angular%2fhttp
+134 verbose request uri http://registry.npmjs.org/@angular%2fplatform-browser
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 10:04:16 PM
+137 http request GET http://registry.npmjs.org/@angular%2fplatform-browser
+138 verbose request uri http://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+139 verbose request no auth needed
+140 info attempt registry request try #1 at 10:04:16 PM
+141 http request GET http://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+142 verbose request uri http://registry.npmjs.org/@angular%2frouter
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 10:04:16 PM
+145 http request GET http://registry.npmjs.org/@angular%2frouter
+146 verbose request uri http://registry.npmjs.org/angular-in-memory-web-api
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 10:04:16 PM
+149 http request GET http://registry.npmjs.org/angular-in-memory-web-api
+150 verbose request uri http://registry.npmjs.org/systemjs
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 10:04:16 PM
+153 http request GET http://registry.npmjs.org/systemjs
+154 verbose request uri http://registry.npmjs.org/rxjs
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 10:04:16 PM
+157 http request GET http://registry.npmjs.org/rxjs
+158 verbose request uri http://registry.npmjs.org/zone.js
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 10:04:16 PM
+161 http request GET http://registry.npmjs.org/zone.js
+162 verbose request uri http://registry.npmjs.org/core-js
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 10:04:17 PM
+165 verbose etag "4AEWYN0OZJ4750UXTX7CXZ9QK"
+166 http request GET http://registry.npmjs.org/core-js
+167 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+168 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+169 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+170 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+171 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+172 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+173 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+174 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+175 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+176 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+177 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+178 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+179 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+180 info attempt registry request try #2 at 10:05:42 PM
+181 http request GET http://registry.npmjs.org/@angular%2fcommon
+182 info attempt registry request try #2 at 10:05:42 PM
+183 http request GET http://registry.npmjs.org/@angular%2fcompiler
+184 info attempt registry request try #2 at 10:05:42 PM
+185 http request GET http://registry.npmjs.org/@angular%2fcore
+186 info attempt registry request try #2 at 10:05:42 PM
+187 http request GET http://registry.npmjs.org/@angular%2fforms
+188 info attempt registry request try #2 at 10:05:42 PM
+189 http request GET http://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+190 info attempt registry request try #2 at 10:05:42 PM
+191 http request GET http://registry.npmjs.org/@angular%2fplatform-browser
+192 info attempt registry request try #2 at 10:05:42 PM
+193 http request GET http://registry.npmjs.org/@angular%2fhttp
+194 info attempt registry request try #2 at 10:05:42 PM
+195 http request GET http://registry.npmjs.org/zone.js
+196 info attempt registry request try #2 at 10:05:42 PM
+197 http request GET http://registry.npmjs.org/@angular%2frouter
+198 info attempt registry request try #2 at 10:05:42 PM
+199 http request GET http://registry.npmjs.org/angular-in-memory-web-api
+200 info attempt registry request try #2 at 10:05:42 PM
+201 http request GET http://registry.npmjs.org/systemjs
+202 info attempt registry request try #2 at 10:05:42 PM
+203 http request GET http://registry.npmjs.org/rxjs
+204 info attempt registry request try #2 at 10:05:42 PM
+205 verbose etag "4AEWYN0OZJ4750UXTX7CXZ9QK"
+206 http request GET http://registry.npmjs.org/core-js
+207 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+208 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+209 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+210 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+211 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+212 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+213 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+214 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+215 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+216 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+217 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+218 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+219 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.16.162:80
+220 info attempt registry request try #3 at 10:07:58 PM
+221 http request GET http://registry.npmjs.org/@angular%2fcommon
+222 info attempt registry request try #3 at 10:07:58 PM
+223 http request GET http://registry.npmjs.org/@angular%2fcore
+224 info attempt registry request try #3 at 10:07:58 PM
+225 http request GET http://registry.npmjs.org/@angular%2fcompiler
+226 info attempt registry request try #3 at 10:07:58 PM
+227 http request GET http://registry.npmjs.org/@angular%2fforms
+228 info attempt registry request try #3 at 10:07:58 PM
+229 http request GET http://registry.npmjs.org/zone.js
+230 info attempt registry request try #3 at 10:07:58 PM
+231 http request GET http://registry.npmjs.org/@angular%2fplatform-browser
+232 info attempt registry request try #3 at 10:07:58 PM
+233 http request GET http://registry.npmjs.org/@angular%2fplatform-browser-dynamic
+234 info attempt registry request try #3 at 10:07:58 PM
+235 http request GET http://registry.npmjs.org/@angular%2fhttp
+236 info attempt registry request try #3 at 10:07:58 PM
+237 verbose etag "4AEWYN0OZJ4750UXTX7CXZ9QK"
+238 http request GET http://registry.npmjs.org/core-js
+239 info attempt registry request try #3 at 10:07:58 PM
+240 http request GET http://registry.npmjs.org/systemjs
+241 info attempt registry request try #3 at 10:07:58 PM
+242 http request GET http://registry.npmjs.org/rxjs
+243 info attempt registry request try #3 at 10:07:58 PM
+244 http request GET http://registry.npmjs.org/angular-in-memory-web-api
+245 info attempt registry request try #3 at 10:07:58 PM
+246 http request GET http://registry.npmjs.org/@angular%2frouter
+247 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.16.162:80
+247 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+247 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+247 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+247 silly fetchPackageMetaData  error for @angular/compiler@2.4.2 { Error: connect ETIMEDOUT 151.101.16.162:80
+247 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+247 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+247 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+247 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+247 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+247 silly fetchPackageMetaData   syscall: 'connect',
+247 silly fetchPackageMetaData   address: '151.101.16.162',
+247 silly fetchPackageMetaData   port: 80 }
+248 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.16.162:80
+248 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+248 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+248 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+248 silly fetchPackageMetaData  error for @angular/core@2.4.2 { Error: connect ETIMEDOUT 151.101.16.162:80
+248 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+248 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+248 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+248 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+248 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+248 silly fetchPackageMetaData   syscall: 'connect',
+248 silly fetchPackageMetaData   address: '151.101.16.162',
+248 silly fetchPackageMetaData   port: 80 }
+249 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.16.162:80
+249 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+249 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+249 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+249 silly fetchPackageMetaData  error for @angular/common@2.4.2 { Error: connect ETIMEDOUT 151.101.16.162:80
+249 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+249 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+249 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+249 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+249 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+249 silly fetchPackageMetaData   syscall: 'connect',
+249 silly fetchPackageMetaData   address: '151.101.16.162',
+249 silly fetchPackageMetaData   port: 80 }
+250 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.16.162:80
+250 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+250 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+250 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+250 silly fetchPackageMetaData  error for @angular/forms@2.4.2 { Error: connect ETIMEDOUT 151.101.16.162:80
+250 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+250 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+250 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+250 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+250 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+250 silly fetchPackageMetaData   syscall: 'connect',
+250 silly fetchPackageMetaData   address: '151.101.16.162',
+250 silly fetchPackageMetaData   port: 80 }
+251 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.16.162:80
+251 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+251 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+251 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+251 silly fetchPackageMetaData  error for @angular/http@2.4.2 { Error: connect ETIMEDOUT 151.101.16.162:80
+251 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+251 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+251 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+251 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+251 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+251 silly fetchPackageMetaData   syscall: 'connect',
+251 silly fetchPackageMetaData   address: '151.101.16.162',
+251 silly fetchPackageMetaData   port: 80 }
+252 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.16.162:80
+252 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+252 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+252 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+252 silly fetchPackageMetaData  error for @angular/platform-browser-dynamic@2.4.0 { Error: connect ETIMEDOUT 151.101.16.162:80
+252 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+252 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+252 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+252 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+252 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+252 silly fetchPackageMetaData   syscall: 'connect',
+252 silly fetchPackageMetaData   address: '151.101.16.162',
+252 silly fetchPackageMetaData   port: 80 }
+253 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.16.162:80
+253 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+253 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+253 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+253 silly fetchPackageMetaData  error for @angular/platform-browser@2.4.0 { Error: connect ETIMEDOUT 151.101.16.162:80
+253 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+253 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+253 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+253 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+253 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+253 silly fetchPackageMetaData   syscall: 'connect',
+253 silly fetchPackageMetaData   address: '151.101.16.162',
+253 silly fetchPackageMetaData   port: 80 }
+254 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.16.162:80
+254 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+254 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+254 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+254 silly fetchPackageMetaData  error for zone.js@^0.7.4 { Error: connect ETIMEDOUT 151.101.16.162:80
+254 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+254 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+254 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+254 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+254 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+254 silly fetchPackageMetaData   syscall: 'connect',
+254 silly fetchPackageMetaData   address: '151.101.16.162',
+254 silly fetchPackageMetaData   port: 80 }
+255 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.16.162:80
+255 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+255 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+255 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+255 silly fetchPackageMetaData  error for @angular/router@3.4.0 { Error: connect ETIMEDOUT 151.101.16.162:80
+255 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+255 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+255 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+255 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+255 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+255 silly fetchPackageMetaData   syscall: 'connect',
+255 silly fetchPackageMetaData   address: '151.101.16.162',
+255 silly fetchPackageMetaData   port: 80 }
+256 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.16.162:80
+256 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+256 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+256 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+256 silly fetchPackageMetaData  error for angular-in-memory-web-api@~0.2.4 { Error: connect ETIMEDOUT 151.101.16.162:80
+256 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+256 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+256 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+256 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+256 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+256 silly fetchPackageMetaData   syscall: 'connect',
+256 silly fetchPackageMetaData   address: '151.101.16.162',
+256 silly fetchPackageMetaData   port: 80 }
+257 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.16.162:80
+257 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+257 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+257 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+257 silly fetchPackageMetaData  error for rxjs@5.0.1 { Error: connect ETIMEDOUT 151.101.16.162:80
+257 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+257 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+257 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+257 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+257 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+257 silly fetchPackageMetaData   syscall: 'connect',
+257 silly fetchPackageMetaData   address: '151.101.16.162',
+257 silly fetchPackageMetaData   port: 80 }
+258 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.16.162:80
+258 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+258 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+258 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+258 silly fetchPackageMetaData  error for systemjs@0.19.40 { Error: connect ETIMEDOUT 151.101.16.162:80
+258 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+258 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+258 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+258 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+258 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+258 silly fetchPackageMetaData   syscall: 'connect',
+258 silly fetchPackageMetaData   address: '151.101.16.162',
+258 silly fetchPackageMetaData   port: 80 }
+259 silly get cb [ 304, undefined ]
+260 verbose etag http://registry.npmjs.org/core-js from cache
+261 verbose get saving core-js to /Users/Omar/.npm/registry.npmjs.org/core-js/.cache.json
+262 verbose correctMkdir /Users/Omar/.npm correctMkdir not in flight; initializing
+263 silly resolveWithNewModule core-js@2.4.1 checking installable status
+264 silly cache add args [ 'core-js@^2.4.1', null ]
+265 verbose cache add spec core-js@^2.4.1
+266 silly cache add parsed spec Result {
+266 silly cache add   raw: 'core-js@^2.4.1',
+266 silly cache add   scope: null,
+266 silly cache add   escapedName: 'core-js',
+266 silly cache add   name: 'core-js',
+266 silly cache add   rawSpec: '^2.4.1',
+266 silly cache add   spec: '>=2.4.1 <3.0.0',
+266 silly cache add   type: 'range' }
+267 silly addNamed core-js@>=2.4.1 <3.0.0
+268 verbose addNamed ">=2.4.1 <3.0.0" is a valid semver range for core-js
+269 silly addNameRange { name: 'core-js', range: '>=2.4.1 <3.0.0', hasData: false }
+270 silly mapToRegistry name core-js
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry http://registry.npmjs.org/
+273 silly mapToRegistry data Result {
+273 silly mapToRegistry   raw: 'core-js',
+273 silly mapToRegistry   scope: null,
+273 silly mapToRegistry   escapedName: 'core-js',
+273 silly mapToRegistry   name: 'core-js',
+273 silly mapToRegistry   rawSpec: '',
+273 silly mapToRegistry   spec: 'latest',
+273 silly mapToRegistry   type: 'tag' }
+274 silly mapToRegistry uri http://registry.npmjs.org/core-js
+275 verbose addNameRange registry:http://registry.npmjs.org/core-js not in flight; fetching
+276 verbose get http://registry.npmjs.org/core-js not expired, no request
+277 silly addNameRange number 2 { name: 'core-js', range: '>=2.4.1 <3.0.0', hasData: true }
+278 silly addNameRange versions [ 'core-js',
+278 silly addNameRange   [ '0.0.3',
+278 silly addNameRange     '0.0.4',
+278 silly addNameRange     '0.0.5',
+278 silly addNameRange     '0.0.7',
+278 silly addNameRange     '0.0.8',
+278 silly addNameRange     '0.0.9',
+278 silly addNameRange     '0.1.1',
+278 silly addNameRange     '0.1.2',
+278 silly addNameRange     '0.1.3',
+278 silly addNameRange     '0.1.4',
+278 silly addNameRange     '0.1.5',
+278 silly addNameRange     '0.2.0',
+278 silly addNameRange     '0.2.1',
+278 silly addNameRange     '0.2.2',
+278 silly addNameRange     '0.2.3',
+278 silly addNameRange     '0.2.4',
+278 silly addNameRange     '0.2.5',
+278 silly addNameRange     '0.3.0',
+278 silly addNameRange     '0.3.1',
+278 silly addNameRange     '0.3.2',
+278 silly addNameRange     '0.3.3',
+278 silly addNameRange     '0.4.0',
+278 silly addNameRange     '0.4.1',
+278 silly addNameRange     '0.4.2',
+278 silly addNameRange     '0.4.3',
+278 silly addNameRange     '0.4.4',
+278 silly addNameRange     '0.4.5',
+278 silly addNameRange     '0.4.6',
+278 silly addNameRange     '0.4.7',
+278 silly addNameRange     '0.4.8',
+278 silly addNameRange     '0.4.9',
+278 silly addNameRange     '0.4.10',
+278 silly addNameRange     '0.5.0',
+278 silly addNameRange     '0.5.1',
+278 silly addNameRange     '0.5.2',
+278 silly addNameRange     '0.5.3',
+278 silly addNameRange     '0.5.4',
+278 silly addNameRange     '0.6.0',
+278 silly addNameRange     '0.6.1',
+278 silly addNameRange     '0.7.0',
+278 silly addNameRange     '0.7.1',
+278 silly addNameRange     '0.7.2',
+278 silly addNameRange     '0.8.0',
+278 silly addNameRange     '0.8.1',
+278 silly addNameRange     '0.8.2',
+278 silly addNameRange     '0.8.3',
+278 silly addNameRange     '0.8.4',
+278 silly addNameRange     '0.9.0',
+278 silly addNameRange     '0.9.1',
+278 silly addNameRange     '0.9.2',
+278 silly addNameRange     '0.9.3',
+278 silly addNameRange     '0.9.4',
+278 silly addNameRange     '0.9.5',
+278 silly addNameRange     '0.9.6',
+278 silly addNameRange     '0.9.7',
+278 silly addNameRange     '0.9.8',
+278 silly addNameRange     '0.9.9',
+278 silly addNameRange     '0.9.10',
+278 silly addNameRange     '0.9.11',
+278 silly addNameRange     '0.9.12',
+278 silly addNameRange     '0.9.13',
+278 silly addNameRange     '0.9.14',
+278 silly addNameRange     '0.9.15',
+278 silly addNameRange     '0.9.16',
+278 silly addNameRange     '0.9.17',
+278 silly addNameRange     '0.9.18',
+278 silly addNameRange     '1.0.0',
+278 silly addNameRange     '1.0.1',
+278 silly addNameRange     '1.1.0',
+278 silly addNameRange     '1.1.1',
+278 silly addNameRange     '1.1.2',
+278 silly addNameRange     '1.1.3',
+278 silly addNameRange     '1.1.4',
+278 silly addNameRange     '1.2.0',
+278 silly addNameRange     '1.2.1',
+278 silly addNameRange     '1.2.2',
+278 silly addNameRange     '1.2.3',
+278 silly addNameRange     '1.2.4',
+278 silly addNameRange     '1.2.5',
+278 silly addNameRange     '1.2.6',
+278 silly addNameRange     '2.0.0-alpha',
+278 silly addNameRange     '2.0.0-beta',
+278 silly addNameRange     '2.0.0-beta.2',
+278 silly addNameRange     '2.0.0',
+278 silly addNameRange     '2.0.1',
+278 silly addNameRange     '2.0.2',
+278 silly addNameRange     '2.0.3',
+278 silly addNameRange     '2.1.0',
+278 silly addNameRange     '2.1.1',
+278 silly addNameRange     '2.1.2',
+278 silly addNameRange     '2.1.3',
+278 silly addNameRange     '2.1.4',
+278 silly addNameRange     '2.1.5',
+278 silly addNameRange     '2.2.0',
+278 silly addNameRange     '2.2.1',
+278 silly addNameRange     '2.2.2',
+278 silly addNameRange     '2.3.0',
+278 silly addNameRange     '2.4.0',
+278 silly addNameRange     '1.2.7',
+278 silly addNameRange     '2.4.1' ] ]
+279 silly addNamed core-js@2.4.1
+280 verbose addNamed "2.4.1" is a plain semver version for core-js
+281 silly cache afterAdd core-js@2.4.1
+282 verbose afterAdd /Users/Omar/.npm/core-js/2.4.1/package/package.json not in flight; writing
+283 verbose correctMkdir /Users/Omar/.npm correctMkdir not in flight; initializing
+284 verbose afterAdd /Users/Omar/.npm/core-js/2.4.1/package/package.json written
+285 silly rollbackFailedOptional Starting
+286 silly rollbackFailedOptional Finishing
+287 silly runTopLevelLifecycles Finishing
+288 silly install printInstalled
+289 verbose stack Error: connect ETIMEDOUT 151.101.16.162:80
+289 verbose stack     at Object.exports._errnoException (util.js:1022:11)
+289 verbose stack     at exports._exceptionWithHostPort (util.js:1045:20)
+289 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+290 verbose cwd /Users/Omar/Desktop/Angular_2_Projects/quickstart
+291 error Darwin 15.6.0
+292 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+293 error node v7.4.0
+294 error npm  v4.0.5
+295 error code ETIMEDOUT
+296 error errno ETIMEDOUT
+297 error syscall connect
+298 error network connect ETIMEDOUT 151.101.16.162:80
+299 error network This is most likely not a problem with npm itself
+299 error network and is related to network connectivity.
+299 error network In most cases you are behind a proxy or have bad network settings.
+299 error network
+299 error network If you are behind a proxy, please make sure that the
+299 error network 'proxy' config is set properly.  See: 'npm help config'
+300 verbose exit [ 1, true ]
